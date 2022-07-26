@@ -29,8 +29,6 @@ Build production (distribution) files in your **dist** folder:
 npm run build
 ```
 
-It generates CommonJS (in **dist/cjs** folder), ES Modules (in **dist/esm** folder), bundled and minified UMD (in **dist/umd** folder), as well as TypeScript declaration files (in **dist/types** folder).
-
 ### Try it before publishing
 
 Run:
