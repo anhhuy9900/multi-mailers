@@ -1,3 +1,4 @@
+import { IBaseMailer } from '../main/base-mailer.interface';
 export interface SendGridSendMailParams {
     to: string;
     from: string;
@@ -6,6 +7,6 @@ export interface SendGridSendMailParams {
     html: string;
 }
 
-export interface ISendGrid {
-    send(mail: SendGridSendMailParams): Promise<Record<string, any>>;
+export interface ISendGrid extends IBaseMailer {
+    sendMail(mail: SendGridSendMailParams): Promise<Record<string, any>>;
 }
