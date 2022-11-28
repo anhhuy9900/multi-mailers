@@ -1,5 +1,6 @@
 import { SendGrid, ISendGrid, SendGridSendMailParams } from './modules/send-grid';
-import MailTrap from './modules/mailtrap';
+import { Mailer } from './modules/mailer';
+import { IMailer } from './modules/mailer/mailer.interface';
 import AWS_SES from './modules/aws-ses';
 import MailerClient from './modules/main';
 
@@ -7,7 +8,8 @@ export {
     SendGrid,
     ISendGrid,
     SendGridSendMailParams,
-    MailTrap,
+    Mailer,
+    IMailer,
     AWS_SES,
     MailerClient,
 }

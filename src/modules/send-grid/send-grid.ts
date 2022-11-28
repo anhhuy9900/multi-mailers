@@ -7,7 +7,7 @@ class SendGrid implements ISendGrid {
     sendGrid.setApiKey(SENDGRID_API_KEY);
   }
 
-  async send(mail: SendGridSendMailParams): Promise<Record<string, any>> {
+  async sendMail(mail: SendGridSendMailParams): Promise<Record<string, any>> {
     return await sendGrid.send(mail);
   }
 }

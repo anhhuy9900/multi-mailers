@@ -7,7 +7,7 @@ describe('Send Grid Platform API', () => {
     });
 
     it('Test send mail with SendGrid', async () => {
-        const result = await sendGrid.send({
+        const result = await sendGrid.sendMail({
             to: 'anhhuy9900@yopmail.com',
             from: 'nhahuy19900@gmail.com',
             subject: 'Test send mail SendGrid',

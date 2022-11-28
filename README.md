@@ -19,6 +19,12 @@ Test your code with Jest framework:
 npm run test
 ```
 
+Run test with specific file
+
+```bash
+ npm test -- test/mailtrap.test.ts 
+```
+
 **Note:** Example TypeScript Package uses [husky](https://typicode.github.io/husky/), [pinst](https://github.com/typicode/pinst) and [commitlint](https://commitlint.js.org/) to automatically execute test and [lint commit message](https://www.conventionalcommits.org/) before every commit.
 
 ### Build

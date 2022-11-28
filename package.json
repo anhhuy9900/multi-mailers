@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "multi-mailers",
   "version": "1.0.0",
   "description": "The packages using libraries to the use choose to send mail",
