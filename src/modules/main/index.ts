@@ -1,11 +1,9 @@
-import { IBaseMailer } from './base-mailer.interface';
+import { IBaseMailer } from './base-mailer.interface'
 
-class MailerClient {
-    constructor(private readonly client: IBaseMailer) {}
+export class MailerClient {
+  constructor(private readonly client: IBaseMailer) {}
 
-    async send(params: any): Promise<void> {
-        await this.client.sendMail(params);
-    }
+  async send(params: any): Promise<void> {
+    await this.client.sendMail(params)
+  }
 }
-
-export default MailerClient;
