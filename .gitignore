@@ -10,3 +10,4 @@ uploads
 coverage/
 .vscode
 .DS_Store
+dist/

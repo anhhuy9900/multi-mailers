@@ -3,13 +3,13 @@
   "name": "multi-mailers",
   "version": "1.0.0",
   "description": "The packages using libraries to the use choose to send mail",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "start:dev": "nodemon ./src/index.ts",
     "start:test": "nodemon ./src/test/index.ts",
     "clean": "rm -rf dist",
-    "build": "npm run clean ; tsc src/index.ts --outDir dist",
+    "build": "npm run clean ; tsc --build",
     "test": "jest --no-cache --runInBand",
     "lint": "tslint --project tsconfig.json"
   },
