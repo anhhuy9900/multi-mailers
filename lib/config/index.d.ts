@@ -1,0 +1,14 @@
+import 'dotenv/config';
+export declare const SENDGRID_API_KEY: string;
+export declare const MAILTRAP_HOST: string;
+export declare const MAILTRAP_PORT: string | undefined;
+export declare const MAILTRAP_USER: string;
+export declare const MAILTRAP_PASSWORD: string;
+export declare const GMAIL_HOST: string;
+export declare const GMAIL_PORT: string | undefined;
+export declare const GMAIL_USER: string;
+export declare const GMAIL_PASSWORD: string;
+export declare const AWS_ENV_REGION: string;
+export declare const AWS_ENV_ACCOUNT_ID: string;
+export declare const AWS_ENV_ACCESS_KEY_ID: string;
+export declare const AWS_ENV_SECRET_ACCESS_KEY: string;
